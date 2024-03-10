@@ -52,6 +52,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-container {
@@ -173,6 +174,7 @@ img {
 .team-list-container {
   padding: 32px 0;
 }
+
 .team-subtitle {
   text-align: center;
 }
@@ -180,17 +182,21 @@ img {
 .team-list-text {
   text-align: center;
 }
+
 .portfolio {
   padding: 120px 0;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
+
 .portfolio-list-item {
   width: calc((100%-48px) / 3);
 }
+
 .portfolio-img {
 }
 .portfolio-list-text {
