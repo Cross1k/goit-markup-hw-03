@@ -50,8 +50,7 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
-  padding: 0 15px;
+
   margin: 0 auto;
 }
 
@@ -59,7 +58,8 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 156px;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .header-nav {
@@ -194,7 +194,7 @@ img {
 }
 
 .portfolio-list-item {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img {
