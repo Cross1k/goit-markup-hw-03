@@ -51,7 +51,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   width: 1158px;
-  padding: 0 auto;
+  padding: 0 15px;
 }
 
 .header-container {
@@ -89,7 +89,7 @@ img {
 .header-link,
 .contact-info,
 .header-logo {
-  padding: 24px;
+  padding: 24px 0;
 }
 .contact {
 }
@@ -189,7 +189,7 @@ img {
   gap: 48px 24px;
 }
 .portfolio-list-item {
-  flex-basis: calc((100%-48px) / 3);
+  width: calc((100%-48px) / 3);
 }
 .portfolio-img {
 }
@@ -203,10 +203,10 @@ img {
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
-  padding: 100px 0;
 }
 .footer-logo {
   display: inline-block;
