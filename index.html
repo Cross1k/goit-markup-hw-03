@@ -3,7 +3,10 @@
   <head>
     <link
       rel="stylesheet"
-      href="https://cdnjs.com/libraries/modern-normalize"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,15 +56,15 @@
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button">Order Service</button>
         </div>
       </section>
-      <section class="table">
+      <section class="table section">
         <div class="container">
-          <h2 class="table-title">Table</h2>
+          <h2 class="table-title visually-hidden">Table</h2>
           <ul class="table-list">
             <li class="table-list-item">
               <h3 class="table-subtitle">Strategy</h3>
@@ -94,7 +97,7 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -106,8 +109,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Mark Guerrero</h3>
-              <p class="team-list-text">Product Designer</p>
+              <div class="team-list-container">
+                <h3 class="team-subtitle">Mark Guerrero</h3>
+                <p class="team-list-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img
@@ -117,8 +122,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Tom Ford</h3>
-              <p class="team-list-text">Frontend Developer</p>
+              <div class="team-list-container">
+                <h3 class="team-subtitle">Tom Ford</h3>
+                <p class="team-list-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img
@@ -128,8 +135,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Camila Garcia</h3>
-              <p class="team-list-text">Marketing</p>
+              <div class="team-list-container">
+                <h3 class="team-subtitle">Camila Garcia</h3>
+                <p class="team-list-text">Marketing</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img
@@ -139,13 +148,15 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-subtitle">Daniel Wilson</h3>
-              <p class="team-list-text">UI Designer</p>
+              <div class="team-list-container">
+                <h3 class="team-subtitle">Daniel Wilson</h3>
+                <p class="team-list-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio section">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -157,8 +168,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Banking App</h3>
-              <p class="portfolio-list-text">App</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-subtitle">Banking App</h3>
+                <p class="portfolio-list-text">App</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -168,8 +181,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Cashless Payment</h3>
-              <p class="portfolio-list-text">Marketing</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-subtitle">Cashless Payment</h3>
+                <p class="portfolio-list-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -179,8 +194,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Meditation App</h3>
-              <p class="portfolio-list-text">App</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-subtitle">Meditation App</h3>
+                <p class="portfolio-list-text">App</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -190,8 +207,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Taxi Service</h3>
-              <p class="portfolio-list-text">Marketing</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-subtitle">Taxi Service</h3>
+                <p class="portfolio-list-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -201,8 +220,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Screen Illustrations</h3>
-              <p class="portfolio-list-text">Design</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+                <p class="portfolio-list-text">Design</p>
+              </div>
             </li>
             <li class="portfolio-list-item">
               <img
@@ -212,15 +233,17 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Online Courses</h3>
-              <p class="portfolio-list-text">Marketing</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-subtitle">Online Courses</h3>
+                <p class="portfolio-list-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="footer-container container">
         <a class="footer-logo" href="./index.html"
           >Web<span class="footer-span">Studio</span></a
         >
